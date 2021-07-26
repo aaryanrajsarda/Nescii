@@ -79,7 +79,7 @@ function SocietyDefault() {
           <header
             class="jumbotron jumbotron-fluid"
             style={{
-              backgroundImage: `url(https://scontent.fdel17-1.fna.fbcdn.net/v/t1.0-9/74228915_410870179579729_1615985920475922432_o.jpg?_nc_cat=111&ccb=3&_nc_sid=730e14&_nc_ohc=ypWr6LU6q6YAX-GyI3p&_nc_ht=scontent.fdel17-1.fna&oh=46e4a9be06b6b4f2c412d5f7ff8f4663&oe=6057AEE9)`,
+              backgroundImage: `url(https://scontent.fdel52-1.fna.fbcdn.net/v/t1.6435-9/74228915_410870179579729_1615985920475922432_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=730e14&_nc_ohc=tiGz7fEG2fsAX8J24xl&_nc_ht=scontent.fdel52-1.fna&oh=6f990969292bda0eee28eec42f0b276e&oe=60DE6D66)`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
               backgroundPosition: "center center",
@@ -224,7 +224,7 @@ function SocietyDefault() {
           <header
             class="jumbotron jumbotron-fluid"
             style={{
-              backgroundImage: `url(https://scontent.fdel17-1.fna.fbcdn.net/v/t1.0-9/52156568_2005858076149073_4842097725228974080_n.jpg?_nc_cat=109&ccb=3&_nc_sid=8bfeb9&_nc_ohc=ZJw8wryL20MAX_DsOI9&_nc_ht=scontent.fdel17-1.fna&oh=2c529616e811e7cba0519681c10aca3e&oe=60597423)`,
+              backgroundImage: `url(https://scontent.fdel52-1.fna.fbcdn.net/v/t1.6435-9/52156568_2005858076149073_4842097725228974080_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=F-xGzfVgdLAAX9mCssi&_nc_ht=scontent.fdel52-1.fna&oh=590b9cb3a1cbba3f52ead59d1656b2fc&oe=60DF8871)`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
               backgroundPosition: "center center",
@@ -309,20 +309,62 @@ function SocietyDefault() {
             </div>
             <div className="col-md-4 col-12 my-auto  p-2">
               <center>
-                <Typography variant="h5">Made with ❤ by
-                <br/>
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/aaryan-raj-sarda-8983781b1/" > Aaryan</a>  and
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/vijay-pal-b40950197/" > Vijay</a> (Team__OOC)</Typography>
+                <Typography variant="h5">
+                  Made with ❤ by
+                  <br />
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.linkedin.com/in/aaryan-raj-sarda-8983781b1/"
+                  >
+                    {" "}
+                    Aaryan
+                  </a>{" "}
+                  and
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.linkedin.com/in/vijay-pal-b40950197/"
+                  >
+                    {" "}
+                    Vijay
+                  </a>{" "}
+                  (Team__OOC)
+                </Typography>
               </center>
             </div>
             <div className="col-md-4 col-12 my-auto  p-2">
               <center>
-              <a target="_blank" rel="noreferrer" style={{color:"black"}} href="https://www.instagram.com/vijay._.pal/" > <Instagram style={{ fontSize: "3rem" }} /></a>
-              <a target="_blank" rel="noreferrer" style={{color:"black"}} href="https://www.facebook.com/aaryanraj.sarda" > <Facebook style={{ fontSize: "3rem" }} /></a>
-              <a target="_blank" rel="noreferrer" style={{color:"black"}} href="https://www.linkedin.com/in/aaryan-raj-sarda-8983781b1/" > <LinkedIn style={{ fontSize: "3rem" }} /></a>
-              <a href="mailto:nescii101@gmail.com"style={{color:"black"}} ><Email style={{ fontSize: "3rem" }} /></a>
-                
-                
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "black" }}
+                  href="https://www.instagram.com/vijay._.pal/"
+                >
+                  {" "}
+                  <Instagram style={{ fontSize: "3rem" }} />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "black" }}
+                  href="https://www.facebook.com/aaryanraj.sarda"
+                >
+                  {" "}
+                  <Facebook style={{ fontSize: "3rem" }} />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "black" }}
+                  href="https://www.linkedin.com/in/aaryan-raj-sarda-8983781b1/"
+                >
+                  {" "}
+                  <LinkedIn style={{ fontSize: "3rem" }} />
+                </a>
+                <a href="mailto:nescii101@gmail.com" style={{ color: "black" }}>
+                  <Email style={{ fontSize: "3rem" }} />
+                </a>
               </center>
             </div>
           </div>
